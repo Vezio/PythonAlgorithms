@@ -4,17 +4,17 @@
 class Node:
     """Node--an object containing data and a pointer to the next node."""
     def __init__(self, data, next_node):
-        self.data = data
-        self.next = next_node
-        
+        self.__data = data
+        self.__next = next_node
+    
     def get_data(self):
-        return self.data
+        return self.__data
 
     def get_next(self):
-        return self.next
+        return self.__next
 
     def set_data(self, data):
-        self.data = data
+        self.__data = data
     
     def set_next(self, node):
-        self.next = node 
+        self.__next = node 
