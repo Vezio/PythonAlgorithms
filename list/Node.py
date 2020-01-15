@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+# Author: Tyler Rimaldi
+
 class Node:
     """Node--an object containing data and a pointer to the next node."""
     def __init__(self, data, next_node):
